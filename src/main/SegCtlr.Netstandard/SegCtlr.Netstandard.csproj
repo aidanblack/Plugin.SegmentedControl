@@ -12,6 +12,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <DebugType>portable</DebugType>
+    <ReleaseVersion>2021.01.0</ReleaseVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -24,6 +25,6 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1709-pre4" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
   </ItemGroup>
 </Project>
